@@ -5,9 +5,11 @@ const Footer = () => {
     return (
         <footer>
                 <div class="container-fluid copyright px-1 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                    Copyright &copy; 2020 | Medellín - Antioquia, Colombia | Nuestra Empresa | Contacto        
+                
+                    Copyright &copy; 2020 |  Nuestra Empresa | Contacto
+                
                 </div>
-        </footer>
+                </footer>
     )
 }
 
