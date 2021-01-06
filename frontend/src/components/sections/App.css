@@ -1,0 +1,50 @@
+.containerCtnBox1 {
+    background-color: rgb(78, 147, 204);;
+}
+
+.textCtnBox1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navCeo {
+    border-radius: 10px !important;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.navNuestraempre {
+    border-radius: 10px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navCotizador {
+    border-radius: 10px !important;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.imgHerramientas {
+    margin-right: 20px;
+}
+
+.border-primary {
+    border: 3px solid rgb(89, 119, 218) !important;
+}
+
+.border-dark {
+    border: 3px solid black !important;
+}
+
+.tableContainer {
+    margin-left: 50px;
+}
+
+.tableCotizar {
+    margin-left: 350px;
+}
+
+.btnEnviar {
+    margin-left: 300px;
+}
