@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import ''
 
 const CtnBox1 = () => {
 
@@ -29,7 +30,7 @@ const CtnBox1 = () => {
                         <label className="descripcion">XXXXXXXXXX</label>
                     </tr>
 
-                    <button className="button btn-primary btnEnviar">Enviar</button>
+                    <a href=".."><button className="button btn-primary btnEnviar">Enviar</button></a>
                 </table>
             </div>
             <script type="text/javascript" src="cotizar.js"></script>
