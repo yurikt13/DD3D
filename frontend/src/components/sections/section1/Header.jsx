@@ -15,7 +15,7 @@ const Header = () => {
        <ul className="nav nav-pills nav-fill">
         <li className="nav-item">
           <Link to="/" className="text-decoration-none">
-          <a className="nav-link active text-dark bg-warning navCeo" href="#"><h5 className="text-dark">CEO</h5></a>
+          <a className="nav-link active text-dark bg-warning navCeo"><h5 className="text-dark">CEO</h5></a>
           </Link>
         </li>
         <li className="nav-item">

@@ -1,39 +1,41 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../App.css';
-import ''
+
 
 const CtnBox1 = () => {
 
     return (
         <>
             <div>
-                <table className="tableCotizar">
+                <table className='tableCotizar'>
                     <br />
                     <p>Realice una cotización de un pedido, con el valor unitario que usted considere conveniente.</p>
                     <tr>
                         <th>Cantidad</th>
-                        <label className="cant">X</label>
+                        <label className='cant'>X</label>
                     </tr>
 
                     <tr>
                         <th>Valor unitario</th>
-                        <label className="valorUni">X</label>
+                        <label className='valorUni'>X</label>
                     </tr>
 
                     <tr>
                         <th>Valor total</th>
-                        <label className="total">XXXXXX</label>
+                        <label className='total'>XXXXXX</label>
                     </tr>
 
                     <tr>
                         <th>Descripción del pedido</th>
-                        <label className="descripcion">XXXXXXXXXX</label>
+                        <label className='descripcion'>XXXXXXXXXX</label>
                     </tr>
-
-                    <a href=".."><button className="button btn-primary btnEnviar">Enviar</button></a>
+                    <Link to="/detallePedido" className="text-decoration-none">
+                    <a class='btn btn-primary btnEnviar'>Enviar</a>
+                    </Link>
                 </table>
             </div>
-            <script type="text/javascript" src="cotizar.js"></script>
+            <script type='text/javascript' src='cotizar.js'></script>
         </>
     )
 
@@ -43,7 +45,7 @@ const CtnBox1 = () => {
     let cantidad = 0;
     let valorUnitario = 0;
     let valorTotal = 0;
-    let descripcionPedido = "";
+    let descripcionPedido = '';
 
     //1.2 Zona de procesos
     cantidad = parseInt(prompt('Ingrese la cantidad de unidades que requiere'));
@@ -77,7 +79,6 @@ const CtnBox1 = () => {
     let descripcionPedidoElement = document.querySelector('.descripcion');
     descripcionPedidoElement.innerHTML = descripcionPedido;
 }
-
 
 export default CtnBox1;
 
